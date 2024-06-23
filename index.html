@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="https://www.linkedin.com/in/manshi--tyagi" target="_blank"
+        >LinkedIn</a
+      >
+      <a href="https://github.com/TyagiManshi" target="_blank">GitHub</a>
+    </nav>
+    <hr />
+    <div class="wrap">
+      <div class="wr">
+        <h1 id="h-one">Number Guessing Game</h1>
+        <p class="pp" id="p-one">
+          Try and guess a random number between 1 and 100.
+        </p>
+        <p class="pp">You have 10 attempts to guess the right number.</p>
+        <br />
+        <form>
+          <div class="form">
+            <label for="guessfield" id="guess"><h1>Guess a number</h1></label>
+            <br />
+            <input type="text" class="guess" id="guessfield" />
+            <br />
+            <input type="submit" value="Submit guess" id="sub" />
+          </div>
+        </form>
+        <div class="result">
+          <p>Previous Guesses: <span class="guesses"></span></p>
+          <p>Remaining Guesses: <span class="lastResult">10</span></p>
+          <p class="lowOrHi"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

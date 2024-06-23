@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background-color: white;
+}
+a{
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+#h-one{
+    background-color: black;
+    color: white;
+    width: 99vw;
+    padding: 30px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wr{
+    background-color: #5a5858;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#p-one{
+    margin-top: 50px;
+}
+.pp{
+    line-height: 30px;
+}
+form{
+    font-size: larger;
+    font-weight: bolder;
+}
+label{
+    font-size: x-large;
+}
+.guess{
+    padding: 10px 20px;
+}
+#sub{
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px 50px 0px;
+    line-height: 25px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lowOrHi{
+    margin: 20px 0px;
+    line-height: 25px;
+}
+@media only screen and (max-width: 600px) {
+    #h-one{
+        padding: 15px 0px;
+        font-size: large;
+    }
+    .pp{
+        margin-left: 1px;
+        
+        line-height: 20px;
+        font-size: small;
+    }
+    h1{
+        font-size: larger;
+    }
+    nav{
+        font-size: large;
+        font-weight: 500;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+    .result{
+        margin: 30px 0px 100px 0px;
+        line-height: 30px;
+    }
+}
